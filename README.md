@@ -21,3 +21,10 @@ The above provided State Diagrams of multiplier and matrix multiplier implements
 
 ### Block Diagram:
 Block diagram for multiplier fsm is given as below:
+
+![WhatsApp Image 2022-07-16 at 10 00 36 PM](https://user-images.githubusercontent.com/93525537/179364864-d474126b-2a43-4fe4-b9ef-9a5e3e03156c.jpeg)
+
+Datapath for Matrix Multiplier fsm is given as below:
+
+
+![WhatsApp Image 2022-07-16 at 10 01 04 PM](https://user-images.githubusercontent.com/93525537/179364867-3ff9aef4-15c0-492a-94f9-e204e018b958.jpeg)
