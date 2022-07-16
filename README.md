@@ -9,6 +9,15 @@ Hence in order to generate addresses for these three different memories, we used
 
 We divided our Matrix Multiplier into two parts i.e, one part is a multiplier fsm which is multiplying two values by repetitive addition and second part is matrix multiplier fsm which is generating addresses and doing summation of products of different element (output of multiplier fsm) and storing it into resultant matrix.
 State diagram of multiplier’s fsm is given as below:
-![WhatsApp Image 2022-07-16 at 9 54 54 PM](https://user-images.githubusercontent.com/93525537/179364585-dd1f66a7-8522-4eb7-9e52-38981ee05bba.jpeg)
+       ![WhatsApp Image 2022-07-16 at 9 54 54 PM](https://user-images.githubusercontent.com/93525537/179364585-dd1f66a7-8522-4eb7-9e52-38981ee05bba.jpeg)
 
 The State Diagram of matrix multiplier’s fsm is given as below:
+
+
+![WhatsApp Image 2022-07-16 at 9 55 26 PM](https://user-images.githubusercontent.com/93525537/179364624-6044e351-48cb-4d67-931b-2b2ba775edf4.jpeg)
+
+
+The above provided State Diagrams of multiplier and matrix multiplier implements moore state machines. The reason to go with the moore state machine is that with moore we can have more control on our outputs and state transitions i.e, as output depends only upon current state and as state transition is synchronous so everything is happening synchronously.
+
+### Block Diagram:
+Block diagram for multiplier fsm is given as below:
