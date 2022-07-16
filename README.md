@@ -1,5 +1,10 @@
 # Matrix-Multiplier-FSM
 Takes two 10x10 matrices stored in two different 1rw memories and calculate result through repetitive addition and store resultant matrix C back in 1r1w memory. 
+
+![WhatsApp Image 2022-07-16 at 10 06 50 PM](https://user-images.githubusercontent.com/93525537/179364995-f773f6bb-0e2b-4ccc-add9-e413e8c539ca.jpeg)
+
+
+
 ### Solution Algorithm:
 Underlying working of proposed algorithm is same as we typically multiply two matrices i.e, we take first row of matrix A and first column of matrix B, multiply them element by element and then add their product repetitively and we get first element of matrix C (resultant matrix), and repeat this process for all rows and columns (You can find complete detail here https://en.wikipedia.org/wiki/Matrix_multiplication).  
 We can’t directly apply above provided algorithm in our case because in our case we have matrices stored in memories and resultant is also going to be stored in memory so in addition to doing multiplication and addition of elements, we also need to generate addresses for three different memories to load and store our data into these memories. 
